@@ -1,0 +1,57 @@
+.card_container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.image_container {
+    height: 200px;
+    width: 500px;
+}
+
+.image_container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vote_container {
+    padding: 15px;
+    display: flex;
+    background-color: #fffdd0e7;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.button_container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.vote_button {
+    background-color: #e9e37ce7;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 2.5px 5px 4px black;
+}
+
+.name {
+    font-weight: bold;
+}

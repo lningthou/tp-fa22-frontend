@@ -1,0 +1,37 @@
+.landing_body {
+    outline: 2px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../public/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+}
+
+.text_block {
+    margin-top: 20%;
+    margin-left: 135px;
+}
+
+.landing_header {
+    font-size: 65px;
+}
+
+.landing_text {
+    font-size: 25px;
+}
+
+.card_rack {
+    margin: 0px;
+    padding: 150px 400px 150px 400px;
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+    height: auto;
+    flex-flow: row, wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
